@@ -16,7 +16,7 @@ class CustomGridView extends StatelessWidget {
           return Container(
             height: 100,
             width: 100,
-            color: Colors.amber,
+            color: Colors.blue,
             child: const Text("kareem "),
           );
         },
