@@ -17,7 +17,7 @@ class CustomGridView extends StatelessWidget {
             height: 100,
             width: 100,
             color: Colors.amber,
-            child: Text("kareem tharwat"),
+            child: const Text("kareem "),
           );
         },
         itemCount: 4,
