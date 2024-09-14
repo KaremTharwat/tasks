@@ -1,0 +1,2 @@
+#ignor all files end with .txt
+*.txt
