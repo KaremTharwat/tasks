@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:tasks/ui/gridveiw.dart';
+import 'package:tasks/ui/bottom_nav.dart';
 
 void main() {
   runApp(const Tasks());
@@ -11,7 +10,7 @@ class Tasks extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomGridView(),
+      home: BottomNav(),
     );
   }
 }

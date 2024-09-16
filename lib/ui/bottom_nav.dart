@@ -11,7 +11,7 @@ class BottomNav extends StatefulWidget {
 }
 
 class _BottomNavState extends State<BottomNav> {
-  List<Widget> screens = [const Home(), const Profile(), const Settings()];
+  List<Widget> screens = [const ListViewWidget(), const Profile(), const Settings()];
   int currentState = 1;
 
   @override
