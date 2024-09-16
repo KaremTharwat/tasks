@@ -11,7 +11,7 @@ class BottomNav extends StatefulWidget {
 }
 
 class _BottomNavState extends State<BottomNav> {
-  List<Widget> screens = [const ListViewWidget(), const Profile(), const Settings()];
+  List<Widget> screens = [const Home(), const Profile(), const Settings()];
   int currentState = 1;
 
   @override
@@ -20,9 +20,9 @@ class _BottomNavState extends State<BottomNav> {
       body: screens[currentState],
       bottomNavigationBar: BottomNavigationBar(
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "j"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "h"),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "t"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Person"),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
         ],
         currentIndex: currentState,
         onTap: (value) {

@@ -5,8 +5,8 @@ class CustomGridView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: GridView.builder(
+    return 
+        GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           crossAxisSpacing: 20,
@@ -21,7 +21,6 @@ class CustomGridView extends StatelessWidget {
           );
         },
         itemCount: 4,
-      ),
-    );
+      );
   }
 }
